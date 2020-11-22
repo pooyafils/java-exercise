@@ -11,7 +11,8 @@ public class FunctionalInterfaces {
     Multiplier multiplierLambda = (p, q) -> p*q;
     public static void main(String[] args) {
         FunctionalInterfaces client = new FunctionalInterfaces();
-client.multiplierLambda.multiply(3,2);
+int answer=client.multiplierLambda.multiply(3,2);
+System.out.println(answer);
     }
 
 }
