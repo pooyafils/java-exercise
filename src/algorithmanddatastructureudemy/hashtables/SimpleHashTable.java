@@ -70,11 +70,11 @@ public class SimpleHashTable {
                 hashedKey=(hashedKey+1)%hashTable.length;
 
         }
-if(stopIndex==hashedKey){
-    return -1;
+if(hashTable[hashedKey] !=null && hashTable[hashedKey].key.equals(key)){
+    return hashedKey;
 }
 else {
-    return hashedKey;
+    return -1;
 }
     }
 
