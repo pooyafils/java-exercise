@@ -1,7 +1,5 @@
 package algorithmanddatastructureudemy.chapter5;
 
-import algorithmanddatastructureudemy.hashtables.employee;
-
 public class StackArrayList {
     public static void main(String [] args) {
 ArrayStack stack=new ArrayStack(10);

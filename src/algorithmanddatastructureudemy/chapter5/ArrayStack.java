@@ -1,7 +1,5 @@
 package algorithmanddatastructureudemy.chapter5;
 
-import algorithmanddatastructureudemy.hashtables.employee;
-
 import java.util.EmptyStackException;
 
 public class ArrayStack {
