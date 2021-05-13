@@ -6,7 +6,7 @@ public class StoreEmpoloy {
     public String key;
     public employee employee;
 
-    public StoreEmpoloy(String key, algorithmanddatastructureudemy.hashtables.employee employee) {
+    public StoreEmpoloy(String key, employee employee) {
         this.key = key;
         this.employee = employee;
     }

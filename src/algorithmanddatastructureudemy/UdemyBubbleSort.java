@@ -17,7 +17,7 @@ int []intArray={20,35,-1,-15,55,7};
         }
      //   Arrays.stream(intArray).forEach(System.out::print);
         for(int i=0;i<intArray.length;i++){
-      //      System.out.print(","+intArray[i]);
+           System.out.print(","+intArray[i]);
         }
     }
 
@@ -29,6 +29,6 @@ int []intArray={20,35,-1,-15,55,7};
        array[i]=array[j];
        // we put what is in j to i
        array[j]=temp;
-      // System.out.println(array[i]+" "+array[j]);
+    //   System.out.println(array[i]+" "+array[j]);
     }
 }

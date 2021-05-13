@@ -13,21 +13,21 @@ public class main {
         queue.add(marySmith);
         queue.add(mikeWilson);
         queue.add(billend);
-       // queue.pringQueue();
-
+     //   queue.pringQueue();
+//System.out.println("pick v-> "+queue.peek());
         queue.remove();
         queue.remove();
-        // queue.pringQueue();
+         queue.pringQueue();
 
        // System.out.println(queue.peek());
-        queue.remove();
-        queue.remove();
+      //  queue.remove();
+     //   queue.remove();
 
 
-        queue.remove();
-        queue.pringQueue();
-         queue.add(mikeWilson);
-        queue.pringQueue();
+      //  queue.remove();
+      //  queue.pringQueue();
+      //   queue.add(mikeWilson);
+      //  queue.pringQueue();
 
 
 
