@@ -18,5 +18,17 @@ public class Number implements Comparator< VarList> {
             return -1;
 
     }
+
+
+/*    @Override
+    public int compare(VarList o1, VarList o2) {
+        if(o1.getNumber()==o2.getNumber())
+            return 0;
+        else if(o1.getNumber()>o2.getNumber())
+            return 1;
+        else
+            return -1;
+
+    }*/
 }
 
