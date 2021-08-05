@@ -1,6 +1,5 @@
 package java8course;
 
-import com.sun.java_cup.internal.runtime.Scanner;
 
 import java.util.function.Supplier;
 

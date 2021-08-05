@@ -1,7 +1,6 @@
 package MovieAndTiketList;
 
 import Comperetor.Main;
-import com.sun.org.apache.bcel.internal.generic.MONITORENTER;
 
 import java.util.ArrayList;
 import java.util.List;

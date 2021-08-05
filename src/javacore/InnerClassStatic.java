@@ -1,4 +1,4 @@
-package JavaCore;
+package javacore;
 
 /**
  * pooya mahmoodi 11/11/2020

@@ -1,6 +1,5 @@
 package java8course.Stream;
 import Stream.Stream;
-import org.omg.CORBA.INTERNAL;
 
 import java.lang.reflect.Array;
 import java.util.Arrays;
