@@ -16,7 +16,7 @@ public class CompareObjectsInsideTheTwoList {
 //object array list
         ArrayList<VarList> object=new ArrayList<VarList>();
         object.add(new VarList(105,19,"b"));
-        object.add(new VarList(106,54,"database"));
+        object.add(new VarList(106,54,"database  "));
 
 
         List<VarList> resultList = new ArrayList<VarList>();

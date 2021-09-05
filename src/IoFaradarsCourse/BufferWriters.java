@@ -1,3 +1,4 @@
+
 package IoFaradarsCourse;
 
 import java.io.BufferedWriter;

@@ -1,8 +1,12 @@
+
 package Compareble;
+
 
 /**
  * Created by pooya on 4/18/2020.
  */
+
+
 
     public class Comp implements Comparable<Comp> {
         int number;
@@ -14,11 +18,11 @@ package Compareble;
             this.age=age;
 
         }
-        @Override
+       @Override
         public int compareTo(Comp o) {
-            // TODO Auto-generated method stub
+           //  TODO Auto-generated method stub
             return name.compareTo(o.name);
-        }
+       }
 
 
 //	public int compareTo(comp o) {
@@ -29,11 +33,13 @@ package Compareble;
 //			else
 //				return -1;
 //	}
-        //@Override
-        // public int compareTo(comp o){
+    //  @Override
+      //  public int compareTo(Comp o){
         //  return this.number-o.number;
         //  }
 
 
     }
+
+
 

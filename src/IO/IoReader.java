@@ -18,7 +18,7 @@ public class IoReader {
     }
     public static  void openFile(){
         try{
-            input =new Scanner(Paths.get("C:\\Users\\pooya\\Downloads\\my-java-exercises\\src\\IO\\clients.txt"));
+            input =new Scanner(Paths.get("C:\\Users\\User\\Desktop\\New folder\\java-exercise\\src\\IO\\clients.txt"));
         } catch (IOException e) {
             System.out.println("error open file");
             System.exit(1);

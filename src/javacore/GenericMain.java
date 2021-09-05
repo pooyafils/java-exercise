@@ -7,7 +7,7 @@ import java.util.ArrayList;
  */
 public class GenericMain {
     public static void main(String[] args) {
-        GenericClass<Integer> ob= new GenericClass<>(5);
+        JavaCore.GenericClass<Integer> ob= new JavaCore.GenericClass<>(5);
         int a=ob.pooya();
         ArrayList<Integer> obj=new ArrayList<Integer>();
         obj.add(1);
@@ -16,7 +16,7 @@ public class GenericMain {
         obj.add(2);
 
         System.out.println("totoal generic methid by generic class "+a);
-        Generic bo2= new Generic (9);
+        JavaCore.Generic bo2= new JavaCore.Generic(9);
         System.out.println(" a nit generic method but not reall one "+bo2.integer_ge());
         System.out.println("generic method with generic type parameter "+bo2.pooya(12));
         System.out.println("generic method with generic type parameter "+bo2.pooya("my name"));

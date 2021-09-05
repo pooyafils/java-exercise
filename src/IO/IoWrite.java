@@ -24,7 +24,7 @@ public class IoWrite {
     // open file clients.txt
     public static void openFile() {
         try {
-            FileWriter fileWriter = new FileWriter("C:\\Users\\pooya\\Downloads\\my-java-exercises\\src\\IO\\clients.txt", true);
+            FileWriter fileWriter = new FileWriter("C:\\Users\\User\\Desktop\\New folder\\java-exercise\\src\\IO\\clients.txt", true);
             output = new Formatter(fileWriter); // open the file
             //this is a modifcation for keeping old records
             // output= new formatter("clients.txt");
