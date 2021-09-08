@@ -88,7 +88,6 @@ public enum FieldType {
     // Static class members
     //
     private static final Map<String, FieldType> nameToFieldTypeMap = new HashMap<>();
-
     static {
         for (FieldType field : FieldType.values()) {
             nameToFieldTypeMap.put(field.getFieldName(), field);
