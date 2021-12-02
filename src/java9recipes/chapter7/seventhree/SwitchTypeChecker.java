@@ -1,4 +1,4 @@
-package java9recipes;
+package java9recipes.chapter7.seventhree;
 
 /**
  * Recipe 7-3:  Executing Code Based Upon a Specified Value

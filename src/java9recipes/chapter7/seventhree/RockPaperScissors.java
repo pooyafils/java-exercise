@@ -1,4 +1,4 @@
-package java9recipes;
+package java9recipes.chapter7.seventhree;
 
 import java.util.Scanner;
 
