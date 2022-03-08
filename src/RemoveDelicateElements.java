@@ -3,6 +3,7 @@ public class RemoveDelicateElements {
         char[] chArray = str.toCharArray(); // or, use charAt(i)
         StringBuilder sb = new StringBuilder();
         for (char ch : chArray) {
+            System.out.println(String.valueOf(ch));
             if (sb.indexOf(String.valueOf(ch)) == -1) {
                 sb.append(ch);
             }
