@@ -1,4 +1,5 @@
 public class BinarySearch {
+    // https://www.youtube.com/watch?v=M6lYob8STMI
     Node root;
     public void addNode(int key,String name){
         Node newNode=new Node(key, name);
