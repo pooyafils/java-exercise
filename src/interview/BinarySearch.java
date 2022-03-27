@@ -1,3 +1,5 @@
+package interview;
+
 public class BinarySearch {
     // https://www.youtube.com/watch?v=M6lYob8STMI
     Node root;

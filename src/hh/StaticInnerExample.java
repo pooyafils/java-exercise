@@ -4,7 +4,7 @@ package hh;
 /**
  * Recipe 5-14
  * 
- * Static Inner Class Example
+ * Static Inner Class interview.Example
  * @author Juneau
  */
 public class StaticInnerExample {

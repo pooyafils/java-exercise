@@ -1,3 +1,5 @@
+package interview;
+
 public class RemoveDelicateElements {
     public static String removeDuplicates(String str) {
         char[] chArray = str.toCharArray(); // or, use charAt(i)

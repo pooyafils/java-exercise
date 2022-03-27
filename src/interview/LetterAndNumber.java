@@ -1,3 +1,5 @@
+package interview;
+
 public class LetterAndNumber{
 
     private char letter;

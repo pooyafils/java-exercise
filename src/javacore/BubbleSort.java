@@ -62,6 +62,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args){
+        /*
         Scanner scan = new Scanner(System.in);
 
         List<Integer> arrayList = new ArrayList<>();
@@ -82,7 +83,8 @@ public class BubbleSort {
         }
 
         int [] array = listConvert(arrayList);
-        bubbleSort(array);
-
+        bubbleSort(array);*/
+int  a[]={1,44,3,887,5};
+bubbleSort(a);
     }
 }

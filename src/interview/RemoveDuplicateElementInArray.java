@@ -1,3 +1,5 @@
+package interview;
+
 public class RemoveDuplicateElementInArray {
     public static char[] removeDuplicateElement(String text) {
 

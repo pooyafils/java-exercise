@@ -1,3 +1,5 @@
+package interview;
+
 public class finallyExample {
     public static void main(String [] args) {
 try{

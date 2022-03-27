@@ -1,3 +1,5 @@
+package interview;
+
 import java.util.Arrays;
 
 public class FindSecondBigNumber {
@@ -52,7 +54,7 @@ findSecondHighest(arr);
 
 
 /*
-public class FindSecondBigNumber {
+public class interview.FindSecondBigNumber {
 
 
     public static void main(String[] args) {

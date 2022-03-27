@@ -1,3 +1,5 @@
+package interview;
+
 public class FindDuplicateElementInString {
     public static char[] duplicateElement(String text) {
 

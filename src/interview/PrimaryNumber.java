@@ -1,3 +1,5 @@
+package interview;
+
 public class PrimaryNumber {
     public static boolean primaryNumber(int num){
         if(num%2>0){
