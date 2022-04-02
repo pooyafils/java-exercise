@@ -1,4 +1,4 @@
-package java9recipes.chapter8;
+package java9recipes.chapter8.SerializingJavaObjects;
 
 import java.io.Serializable;
 import java.util.Objects;

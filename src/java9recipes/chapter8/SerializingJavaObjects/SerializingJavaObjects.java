@@ -1,4 +1,4 @@
-package java9recipes.chapter8;
+package java9recipes.chapter8.SerializingJavaObjects;
 
 import java.io.*;
 
@@ -12,7 +12,7 @@ saveSetting(settings,"C:\\Users\\User\\Desktop\\find.txt");
         }
 
     }
-    private void saveSetting(ProgramSettings programSettings,String filename) throws IOException {
+    private void saveSetting(ProgramSettings programSettings, String filename) throws IOException {
         try{
             FileOutputStream fos= new FileOutputStream(filename);
             try(ObjectOutputStream oos = new ObjectOutputStream(fos)){
