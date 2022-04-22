@@ -8,6 +8,7 @@ public class BuildingJSONObject {
     public static JsonObject buildBookObject() {
         JsonBuilderFactory factory= Json.createBuilderFactory(null);
         JsonObject obj=factory.createObjectBuilder()
+
                 .add("title", "Java 9 Recipes")
                 .add("author", "Josh Juneau")
                 .add("projectCoordinator", "Jill Balzano")
