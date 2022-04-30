@@ -15,6 +15,6 @@ public class UuidExample {
         System.out.println("UUID variant is: "+ variant.variant());
         // node
         UUID uuids = UUID.fromString("237e9877-e79b-12d4-a765-321741963000");
-        System.out.println("Node value: "+ uuids.node());
+        System.out.println("Node value: "+ uuids);
     }
 }
