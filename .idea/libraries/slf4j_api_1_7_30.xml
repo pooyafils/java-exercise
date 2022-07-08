@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="javax.json-api-1.0">
+  <library name="slf4j-api-1.7.30">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/jarfile/javax.json-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jarfile/slf4j-api-1.7.30.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
