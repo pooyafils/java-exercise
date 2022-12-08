@@ -1,4 +1,4 @@
-package JavaCore;
+package javacore;
 
 /**
  * Created by pooya on 4/18/2020.
@@ -6,7 +6,7 @@ package JavaCore;
 public class PolymorphismMainClass {
 
     public static void  main(String[] args) {
-        PolymorphismSuperClass pooya=new PolymorphismSubClass();
+        JavaCore.PolymorphismSuperClass pooya=new PolymorphismSubClass();
         pooya.run();
         System.out.println("    ");
         PolymorphismSubClass poo=new PolymorphismSubClass();

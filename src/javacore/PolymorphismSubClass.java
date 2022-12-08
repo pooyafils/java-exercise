@@ -1,9 +1,9 @@
-package JavaCore;
+package javacore;
 
 /**
  * Created by pooya on 4/18/2020.
  */
-public class PolymorphismSubClass extends PolymorphismSuperClass {
+public class PolymorphismSubClass extends JavaCore.PolymorphismSuperClass {
 
         @Override
         //@Override annotation example
@@ -14,5 +14,6 @@ public class PolymorphismSubClass extends PolymorphismSuperClass {
         public void inhr() {
             super.run();
         }
-        int x=y;
+    //int x=y;
+        int x=0;
     }

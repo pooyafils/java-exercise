@@ -1,4 +1,4 @@
-package regex;
+package JavaCookBook.chapter4butexamplesfrominternet;
 
 import java.util.regex.Pattern;
 
