@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<patients>
+	<patient id="1">
+		<name>p1 name</name>
+		<diagnosis>p1 ds</diagnosis>
+	</patient>
+	<patient id="2">
+		<name>p2 name</name>
+		<diagnosis>p2 ds</diagnosis>
+	</patient>
+	<patient id="3">
+		<name>p3 name</name>
+		<diagnosis>p33 ds</diagnosis>
+	</patient>
+</patients>
