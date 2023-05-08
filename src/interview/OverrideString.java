@@ -1,3 +1,4 @@
+/*
 package interview;
 
 import java.util.logging.Level;
@@ -14,3 +15,4 @@ public class OverrideString {
         logger.log(Level.INFO, "This user rocks: {0}", user);
     }
 }
+*/

@@ -1,53 +1,43 @@
-package interview;
-
-import java.util.Date;
-
-public class User {
-    private final String nickname;
-    private final String password;
-    private final String firstname;
-    private final String lastname;
-    private final String email;
-    private final Date created;
-
-    public User(String nickname, String password, String firstname,
-                String lastname, String email) {
-        this.nickname = nickname;
-        this.password = password;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.email = email;
-        this.created = new Date();
-    }
-
-    public String getNickname() {
-        return nickname;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public String getFirstname() {
-        return firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public Date getCreated() {
-        return created;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" + "nickname=" + nickname
-                + ", firstname=" + firstname + ", lastname=" + lastname
-                + ", email=" + email + ", created=" + created + '}';
-    }
-}
+/*
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="11.0.6" class="java.beans.XMLDecoder">
+ <object class="java9recipes.chapter8.ExternalizableProgramSettings.ExternalizableProgramSettings">
+  <void property="defaultFontColor">
+   <object class="java.awt.Color">
+    <int>0</int>
+    <int>0</int>
+    <int>255</int>
+    <int>255</int>
+   </object>
+  </void>
+  <void property="frameSize">
+   <object class="java.awt.Dimension" id="Dimension0">
+    <void class="java.awt.Dimension" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="Dimension0"/>
+      <int>300</int>
+     </void>
+    </void>
+    <void class="java.awt.Dimension" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="Dimension0"/>
+      <int>200</int>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="locationOnScreen">
+   <object class="java.awt.Point" id="Point0">
+    <void class="java.awt.Point" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Point0"/>
+      <int>10</int>
+     </void>
+    </void>
+    <void class="java.awt.Point" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Point*/
