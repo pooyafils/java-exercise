@@ -1,3 +1,4 @@
+/*
 package resttemplate;
 
 
@@ -31,3 +32,4 @@ public class RestTemplateExample {
         }
     }
 }
+*/
