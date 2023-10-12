@@ -1,2 +1,5 @@
-package designpatterns.flyweight;public class Shape {
+package designpatterns.flyweight;
+
+interface Shape {
+    void draw();
 }
