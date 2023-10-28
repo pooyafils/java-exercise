@@ -1,5 +1,6 @@
 package JavaCore;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -27,4 +28,6 @@ public class Generic {
     public <E> E pooya(E t) {
         return t;
     }
+
+
 }
