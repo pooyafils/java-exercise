@@ -1,4 +1,4 @@
-package lambda_review;
+package JavaCookBook.lambda_review;
 
 import java.util.function.Function;
 

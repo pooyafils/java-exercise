@@ -1,6 +1,4 @@
-package lambda_review.Predicate;
-
-import java8course.Predicate.Trade;
+package JavaCookBook.lambda_review.Predicate;
 
 import java.util.function.Predicate;
 

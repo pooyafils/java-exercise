@@ -1,6 +1,9 @@
-package lambda_review;
+package JavaCookBook.lambda_review;
 
-public class LambdaIncrementNumbers {
+import java.util.function.Predicate;
+import java.util.function.Supplier;
+
+public class  LambdaIncrementNumbers {
     @FunctionalInterface
     public interface increment{
         public int numbersIncrement(int a);

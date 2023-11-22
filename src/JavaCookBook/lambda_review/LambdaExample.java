@@ -1,4 +1,4 @@
-package lambda_review;
+package JavaCookBook.lambda_review;
 
 public class LambdaExample {
     @FunctionalInterface

@@ -1,4 +1,4 @@
-package lambda_review.Consumer;
+package JavaCookBook.lambda_review.Predicate;
 
 public class Customer {
     int Customer;

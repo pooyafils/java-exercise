@@ -1,6 +1,4 @@
-package lambda_review;
-
-import Stream.Stream;
+package JavaCookBook.lambda_review;
 
 import java.util.ArrayList;
 import java.util.List;
