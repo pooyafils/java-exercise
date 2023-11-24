@@ -86,12 +86,12 @@ public class RockPaperScissors {
         System.out.print("> ");
         
         int playerHand = input.hasNextInt() ? input.nextInt() : -99;
-        int computerHand = (int)(3*Math.random()) + 1;
+        int MobilePhoneHand = (int)(3*Math.random()) + 1;
 
         System.out.print("Your hand: (" + playerHand + ") ");
         getHand(playerHand);
-        System.out.print("My hand: (" + computerHand + ") ");
-        getHand(computerHand);
-        playHands(playerHand, computerHand);
+        System.out.print("My hand: (" + MobilePhoneHand + ") ");
+        getHand(MobilePhoneHand);
+        playHands(playerHand, MobilePhoneHand);
     }
 }

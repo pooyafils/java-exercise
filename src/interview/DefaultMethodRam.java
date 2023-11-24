@@ -2,7 +2,7 @@ package interview;
 
 public class DefaultMethodRam implements DefaultMethod {
     @Override
-    public  void computerHardWare(){
+    public  void MobilePhoneHardWare(){
         System.out.println("Ram");
     }
 }

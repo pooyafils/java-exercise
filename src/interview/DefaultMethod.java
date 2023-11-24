@@ -1,7 +1,7 @@
 package interview;
 
 public interface DefaultMethod {
-    public default void computerHardWare(){
-        System.out.println("computer hardware");
+    public default void MobilePhoneHardWare(){
+        System.out.println("MobilePhone hardware");
     }
 }
