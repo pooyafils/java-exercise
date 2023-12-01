@@ -1,3 +1,5 @@
+package interview;
+
 import java.util.HashMap;
 
 public class HashTableComparisonExample {
