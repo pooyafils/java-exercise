@@ -1,6 +1,6 @@
 package masteringthreadcourse.chapterthree.threadGroup;
 
-public class ThreadGroup {
+public class ThreadGroups {
     public static void main(String[] args) throws InterruptedException {
         Thread thread1=new Thread(()->System.out.println("thread1"));
         Thread thread2=new Thread(()->System.out.println("thread2"));

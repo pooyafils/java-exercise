@@ -1,5 +1,7 @@
 package masteringthreadcourse.chapterthree;
 
+import masteringthreadcourse.chapterthree.threadGroup.ThreadGroups;
+
 public class DaemonThreads {
     public static void main(String[] args) throws InterruptedException {
         Thread thread1=new Thread(new MyThread(5),"thread1");
@@ -7,6 +9,18 @@ public class DaemonThreads {
         Thread thread2=new Thread(new MyThread(3),"thread2");
         thread1.start();
         thread2.start();
+    }
+    static class CustomThreadGroup extends ThreadGroup {
+
+
+        public CustomThreadGroup(String name) {
+            super(name);
+        }
+
+        @Override
+        public void uncaughtException(Thread t, Throwable e) {
+          System.out.println(e.getMessage());
+        }
     }
 
     static class  MyThread implements Runnable{
