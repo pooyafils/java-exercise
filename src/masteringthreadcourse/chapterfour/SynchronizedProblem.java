@@ -35,14 +35,14 @@ public class SynchronizedProblem {
         @Override
         public void run() {
             try {
-                Thread.sleep(99999);
-            } catch (InterruptedException e) {
+                      Thread.sleep(99999);
+                  } catch (InterruptedException e) {
 
-            }
+                  }
                 globalCounter++;
 
 
-        }
+                   }
 
 
     }
