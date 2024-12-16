@@ -17,13 +17,22 @@ public class SingletonExample {
     }
 
     // 3. Public static method to provide the instance (lazy initialization)
-    public static SingletonExample getInstance() {
+/*    public static SingletonExample getInstance() {
         if (instance == null) {
             instance = new SingletonExample();
         }
         return instance;
+    }*/
+    public static SingletonExample getInstance() {
+        if (instance == null) {
+            synchronized (SingletonExample.class) {
+                if (instance == null) {
+                    instance = new SingletonExample();
+                }
+            }
+        }
+        return instance;
     }
-
 
     public void someOperation() {
         System.out.println("Performing database operation in Singleton instance with code: " );
