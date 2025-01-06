@@ -83,6 +83,7 @@ public class SingletonExample {
 
         System.out.println("Are the instances the same? " + (singletonOne == singletonTwo));
      singletonOne.someOperation();
+     singletonTwo.someOperation();
         singletonOne.someOperation();
     }
 }
